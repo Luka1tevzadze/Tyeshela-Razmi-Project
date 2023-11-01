@@ -1,0 +1,167 @@
+body {
+    font-family: sans-serif;
+    color: white;
+
+    overflow-x: hidden;
+}
+
+#nav{
+    background-color: rgb(0, 34, 16);
+    width: 1000%;
+    height: 13%;
+    border: none;
+
+    position: absolute;
+    top: -7px;
+    left: -1px;
+}
+
+#ico{
+    border-radius: 50px;
+
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+
+    transition: 1s;
+}
+
+
+.home {
+    position: absolute;
+    left: 1730px;
+    bottom: 40px;
+
+    font-size: 45px;
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.5s;
+}
+
+.info {
+    position: absolute;
+    left: 1600px;
+    bottom: 40px;
+
+    font-size: 45px;
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.5s;
+}
+
+.contacts {
+    position: absolute;
+    left: 1325px;
+    bottom: 40px;
+
+    font-size: 45px;
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.5s;
+}
+
+.home:hover{
+    color: greenyellow;
+
+    font-size: 50px;
+}
+
+.info:hover{
+    color: greenyellow;
+
+    font-size: 50px;
+}
+
+.contacts:hover{
+    color: greenyellow;
+
+    font-size: 48px;
+}
+
+.tyeshelas_razmi_h1{
+    position: relative;
+    bottom: -180px;
+    left: 650px;
+
+    transition: 1s;
+}
+
+.tyeshelas_razmi_h1:hover{
+    color: greenyellow;
+}
+
+.tyeshelas_razmi_p{
+    position: relative;
+    bottom: -200px;
+    left: 250px;
+
+    font-size: 18px;
+}
+
+.section_1{
+    position: absolute;
+    top: 450px;
+    width: 50%;
+}
+
+#razmi_photo{
+    position: absolute;
+    bottom: -1020px;
+    left: 380px;
+
+    transition: 1s;
+}
+
+#razmi_photo:hover{
+    border-radius: 50px;
+}
+
+.section_2{
+    position: absolute;
+    top: 1200px;
+    width: 50%;
+}
+
+.kindness{
+    position: relative;
+    bottom: -1050px;
+    left: 580px;
+
+    transition: 1s;
+}
+
+.kindness:hover{
+    color: greenyellow;
+}
+
+.kindness_p{
+    position: relative;
+    bottom: -1070px;
+    left: 380px;
+
+    font-size: 24px;
+}
+
+.wrestling{
+    width: 1350px;
+    height: 700px;
+
+    position: absolute;
+    top: 1480px;
+    left: 340px;
+
+    transition: 1s;
+}
+
+.wrestling:hover{
+    border-radius: 50px;
+}

@@ -1,0 +1,196 @@
+body {
+    background-size: cover;
+
+    font-family: sans-serif;
+    color: white;
+
+    overflow-x: hidden;
+}
+
+#nav{
+    background-color: rgb(0, 34, 16);
+    width: 1000%;
+    height: 13%;
+    border: none;
+
+    position: absolute;
+    top: -7px;
+    left: -1px;
+}
+
+#ico{
+    border-radius: 50px;
+
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+
+    transition: 1s;
+}
+
+.home {
+    position: absolute;
+    left: 1750px;
+    bottom: 40px;
+
+    font-size: 45px;
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.5s;
+}
+
+.info {
+    position: absolute;
+    left: 1615px;
+    bottom: 40px;
+
+    font-size: 45px;
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.5s;
+}
+
+.contacts {
+    position: absolute;
+    left: 1345px;
+    bottom: 40px;
+
+    font-size: 45px;
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.5s;
+}
+
+.home:hover{
+    color: greenyellow;
+
+    font-size: 50px;
+}
+
+.info:hover{
+    color: greenyellow;
+
+    font-size: 50px;
+}
+
+.contacts:hover{
+    color: greenyellow;
+
+    font-size: 48px;
+}
+
+.h1_info{
+    position: absolute;
+    top: 150px;
+    left: 690px;
+
+    font-size: 48px;
+
+    transition: 1s;
+}
+
+.h1_info:hover{
+    color: greenyellow;
+
+    font-size: 52px;
+}
+
+.p_info{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+
+    font-size: 38px;
+
+    transition: 1s;
+}
+
+.p_info:hover{
+    color: greenyellow;
+}
+
+.best_razmi{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+
+    font-size: 32px;
+    background-color: green;
+
+    transition: 1s;
+}
+
+.best_academy{
+    position: absolute;
+    top: 350px;
+    left: 760px;
+
+    font-size: 32px;
+    background-color: green;
+
+    transition: 1s;
+}
+
+.best_programming_langueges{
+    position: absolute;
+    top: 355px;
+    left: 1330px;
+
+    font-size: 31px;
+    background-color: green;
+
+    transition: 1s;
+}
+
+.best_razmi:hover{
+    background-color: greenyellow;
+
+    color: black;
+}
+
+.best_academy:hover{
+    background-color: greenyellow;
+
+    color: black;
+}
+
+.best_programming_langueges:hover{
+    background-color: greenyellow;
+
+    color: black;
+}
+
+.goa_people{
+    position: absolute;
+    top: 650px;
+    left: 190px;
+
+    border-radius: 100px;
+}
+
+.razmi_list{
+    position: absolute;
+    top: 1450px;
+    left: 680px;
+
+    background-color: green;
+
+    font-size: 28px;
+
+    transition: 1s;
+}
+
+.razmi_list:hover{
+    background-color: greenyellow;
+
+    color: black;
+}

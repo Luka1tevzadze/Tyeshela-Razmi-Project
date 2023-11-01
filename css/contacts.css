@@ -1,0 +1,163 @@
+body {
+    background-size: cover;
+
+    font-family: sans-serif;
+    color: white;
+
+    overflow-x: hidden;
+}
+
+#nav{
+    background-color: rgb(0, 34, 16);
+    width: 1000%;
+    height: 13%;
+    border: none;
+
+    position: absolute;
+    top: -7px;
+    left: -1px;
+}
+
+#ico{
+    border-radius: 50px;
+
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+
+    transition: 1s;
+}
+
+
+.home {
+    position: absolute;
+    left: 1750px;
+    bottom: 40px;
+
+    font-size: 45px;
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.5s;
+}
+
+.info {
+    position: absolute;
+    left: 1615px;
+    bottom: 40px;
+
+    font-size: 45px;
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.5s;
+}
+
+.contacts {
+    position: absolute;
+    left: 1345px;
+    bottom: 40px;
+
+    font-size: 45px;
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.5s;
+}
+
+.home:hover{
+    color: greenyellow;
+
+    font-size: 50px;
+}
+
+.info:hover{
+    color: greenyellow;
+
+    font-size: 50px;
+}
+
+.contacts:hover{
+    color: greenyellow;
+    
+    font-size: 48px;
+}
+
+.contact_h1{
+    position: absolute;
+    left: 850px;
+    top: 140px;
+    font-size: 58px;
+
+    transition: 1s;
+}
+
+.contact_h1:hover{
+    color: greenyellow;
+}
+
+.form-container {
+    position: absolute;
+    bottom: -450px;
+    left: 1000px;
+    transform: translate(-50%, -20%);
+    }
+    
+.formsubmit-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+
+    position: relative;
+    bottom: 30px;
+    }
+
+    ::placeholder{
+        color: rgb(255, 255, 255);
+
+        font-size: 18px;
+    }
+
+    .formsubmit-input-message {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: green;
+        color: rgb(255, 255, 255);
+    
+        position: relative;
+        bottom: 30px;
+        }
+
+
+.formsubmit-button{
+    width: 104%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: white;
+
+    font-size: 20px;
+    background-color: green;
+
+    transition: 2s;
+}
+
+
+.formsubmit-button:hover{
+    font-size: 38px;
+}
+
